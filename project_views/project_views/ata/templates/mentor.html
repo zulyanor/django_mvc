@@ -1,0 +1,22 @@
+{% extends 'base/base_ata.html' %}
+
+{% block contact %}
+Contact Person: Email: academy@alphatech.id Mobile Phone: 0877 9609 9530
+{% endblock %}
+
+{% block content %}
+<div class="container mentor_content">
+    {% for data in guru %}
+    <div class="row">
+        <div class="col-md-5 text-right mentee_pic">
+            <img src="{{data.profile_pic}}" width="50%", height="80%">
+        </div>
+        <div class="col-md-7 mentee_profile">
+            <h5 class="mentor_name">{{data.nama}}</h5>
+            <h6 class="mentor_exp">{{data.experience}}</h6>
+            <p>"{{data.quotes}}"</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

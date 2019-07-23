@@ -1,0 +1,13 @@
+{% extends 'base/base_ata.html' %}
+
+{% block content %}
+
+<div class="form_input text-center">    
+<h2>Input Mentor</h2>
+<form method="POST" class="form_mentor"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save-btn btn-default save_button">Save</button>
+</form>
+</div>
+
+{% endblock %}

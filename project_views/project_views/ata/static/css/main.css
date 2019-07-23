@@ -1,0 +1,140 @@
+.top_para {
+    background-color:#00ccff;
+}
+
+.ata_top {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.menu_bar {
+    padding-top:10px;
+    padding-right:50px;
+}
+
+.list_menu_bar {
+    padding: 2px;
+}
+
+.alpha_big {
+    color: white;
+}
+
+.top_desc {
+    color: white;
+}
+
+.logo_top {
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.logo_program {
+    padding: 10px;
+}
+
+.footer_contact {
+    background-color: black;
+}
+
+.cp_bot {
+    color: white;
+} 
+
+.email {
+    display: inline-block;
+    color: blue;
+}
+
+.our_product h5 {
+    padding:10px;
+}
+
+.our_product_bot {
+    background-color: #00ccff;
+}
+
+.products {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+}
+
+.img_komputer,
+.img_lup,
+.img_duit {
+    padding: 10px;
+}
+
+.home_desc_1,
+.home_desc_2,
+.home_desc_3 {
+    padding: 20px;
+
+}
+
+.save_button {
+    margin: 10px;
+}
+
+.form_mentee {
+    padding: 10px;
+}
+
+.mentee_pic {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.mentee_profile {
+    padding-top: 50px;
+}
+
+.mentor_name {
+    color:grey;
+}
+
+.mentor_exp {
+    font-weight: bold;
+}
+
+.mentee_content,
+.mentor_content,
+.author_content  {
+    padding: 50px;
+}
+
+.author_content {
+    padding: 50px;
+}
+
+.geser {
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.content_blog {
+    padding: 120px;
+}
+.blog_detail_content {
+    padding: 120px;
+}
+
+.blog_detail_items {
+    padding: 20px;
+}
+
+.logo-box {
+    width:180px;
+    height:180px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border: 2px solid #ECECEC;
+
+}
+/* 
+.logo_program{
+    padding: 50px;
+} */

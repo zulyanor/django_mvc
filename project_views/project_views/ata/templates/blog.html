@@ -1,0 +1,35 @@
+{% extends 'base/base_ata.html' %}
+{% block content %}
+
+
+<div class="container content_blog">
+    <div class="row  justify-content-center">
+            
+        {% for item in artikel %}
+            <div class="col-8 text-center margin-top10">
+                <img width="100%" src="{{ item.gambar }}">
+            </div>
+
+            <div class="col-5 text-left">
+                {{ item.tanggal }}
+            </div>
+            <div class="col-3 text-right">
+                {{ item.comment }} Comments
+            </div>
+            <div class="col-8 margin-top10">
+                <h2>{{ item.judul }}</h2>
+            </div>
+            <div class="col-8">
+                {{ item.desc|safe|truncatewords:"50"|linebreaks }}
+            </div>
+            <div class="col-8 blog-content">
+                <a href="{% url 'blog_detail' item.id %}" >baca selengkapnya</a>
+            </div>
+            <br>
+            <br>
+            <br>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
